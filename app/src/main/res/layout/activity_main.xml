@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bob.eve.label.sample.MainActivity"
+    >
+  <bob.eve.label.EveLabelView
+      android:id="@+id/labelView"
+      android:layout_width="300dp"
+      android:layout_height="300dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      />
+  <Button
+      android:id="@+id/btn_image"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/labelView"
+      android:layout_alignStart="@+id/labelView"
+      android:layout_below="@+id/labelView"
+      android:text="Add Image"
+      />
+  <Button
+      android:id="@+id/btn_create"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/labelView"
+      android:layout_centerHorizontal="true"
+      android:text="Create Image"
+      />
+  <Button
+      android:id="@+id/btn_label"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignEnd="@+id/labelView"
+      android:layout_alignRight="@+id/labelView"
+      android:layout_below="@+id/labelView"
+      android:text="Add Label"
+      />
+
+</RelativeLayout>
